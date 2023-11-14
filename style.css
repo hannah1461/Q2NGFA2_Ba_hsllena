@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 98.9vw;
+    background-color: indianred;
+}
+#sitename{
+    padding-top: 1vw;
+    padding-bottom: 1vw;}
+#navlinks{
+    text-decoration: none;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+#links{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.icon{
+    background: url(media/sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+}
+
+
+section{
+    display: flex;
+    height: 85vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 98.9vw;
+    background-color: indianred;
+    
+}
+#instagram{
+    background-position: -290px -221px;
+}
+#youtube{
+    background-position: -439px -221px;
+}
+#pinterest{
+    background-position: -141px -221px;
+}
+#facebook{
+    background-position: -439px -146px;
+}
